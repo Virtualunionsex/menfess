@@ -5,11 +5,11 @@ import telebot
 ##TOKEN DETAILS
 TOKEN = "ONS"
 
-BOT_TOKEN = "5931268983:AAFfqM6O4q0heZB6AP3fj5tNcMUcWCshA1c"
-OWNER_ID = 1726966074 #write owner's user id here.. get it from @MissRose_Bot by /id
-CHANNELS = ["@ONSBAseE"] #add channels to be checked here in the format - ["Channel 1", "Channel 2"] 
-RATE_CHANNEL = "@onsbasee" #you can add as many channels here and also add the '@' sign before channel username
-MENFES_CHANNEL = "@menfesonsbase"
+BOT_TOKEN = "5990927168:AAE3uVXTDPT-zviopBCNMST9m4LABCM97xM"
+OWNER_ID = 1715348447 #write owner's user id here.. get it from @MissRose_Bot by /id
+CHANNELS = ["t.me/+U1NZZ_oK_j1kNjM1", "@executive_fams"] #add channels to be checked here in the format - ["Channel 1", "Channel 2"] 
+RATE_CHANNEL = "@executive_fams" #you can add as many channels here and also add the '@' sign before channel username
+MENFES_CHANNEL = "t.me/+U1NZZ_oK_j1kNjM1"
 Daily_bonus = 50 #Put daily bonus amount here!
 Mini_Withdraw = 1000  #remove 0 and add the minimum withdraw u want to set
 Per_Refer = 50 #add per refer bonus here
