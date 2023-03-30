@@ -7,7 +7,7 @@ TOKEN = "ONS"
 
 BOT_TOKEN = "5990927168:AAE3uVXTDPT-zviopBCNMST9m4LABCM97xM"
 OWNER_ID = 1715348447 #write owner's user id here.. get it from @MissRose_Bot by /id
-CHANNELS = ["t.me/+U1NZZ_oK_j1kNjM1", "@executive_fams"] #add channels to be checked here in the format - ["Channel 1", "Channel 2"] 
+CHANNELS = ["@executive_girls"] #add channels to be checked here in the format - ["Channel 1", "Channel 2"] 
 RATE_CHANNEL = "@executive_fams" #you can add as many channels here and also add the '@' sign before channel username
 MENFES_CHANNEL = "t.me/+U1NZZ_oK_j1kNjM1"
 Daily_bonus = 50 #Put daily bonus amount here!
@@ -71,7 +71,7 @@ def start(message):
         markup.add(telebot.types.InlineKeyboardButton(
            text='🤼‍♂️ Joined', callback_data='check'))
         msg_start = "*🍔 To Use This Bot You Need To Join This Channel - "
-        for i in CHANNELS, MENFES_CHANNEL, "@ratemyonspartner":
+        for i in CHANNELS, MENFES_CHANNEL, "@t.me/+U1NZZ_oK_j1kNjM1":
             msg_start += f"\n➡️ {i}\n"
         msg_start += "*"
         bot.send_message(user, msg_start,
